@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Guides — Game Realm</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="../index.html" class="logo">
+        <span class="logo-mark">🎮</span>
+        <span class="logo-text">Game<span>Realm</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <nav class="nav-menu">
+        <a href="../index.html" data-i18n="nav.home">Home</a>
+        <a href="../news/index.html" data-i18n="nav.news">News</a>
+        <a href="index.html" class="active" data-i18n="nav.guides">Guides</a>
+        <a href="../research/index.html" data-i18n="nav.research">Research</a>
+        <a href="../about.html" data-i18n="nav.about">About</a>
+        <button class="lang-toggle" type="button"><span class="globe">🌐</span><span class="label">中文</span></button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="padding-bottom:50px;">
+    <div class="container">
+      <div class="breadcrumb" style="padding:0;text-align:left;">
+        <a href="../index.html" data-i18n="nav.home">Home</a><span class="sep">/</span><span data-i18n="nav.guides">Guides</span>
+      </div>
+      <h1 style="margin-top:24px;" data-i18n="guides.eyebrow">Game Guides</h1>
+      <p class="lead" data-i18n="guides.lead">From beginner to no-hit, skip the detours.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:10px;">
+    <div class="container">
+      <div class="cat-chips reveal">
+        <a href="index.html" class="active" data-i18n="guides.chip_all">All guides</a>
+        <a href="guide-eldenring.html" data-i18n="guides.chip_boss">Boss Guides</a>
+        <a href="guide-genshin.html" data-i18n="guides.chip_prog">Progression</a>
+        <a href="guide-cyberpunk.html" data-i18n="guides.chip_end">Endings</a>
+      </div>
+
+      <div class="grid">
+        <a class="card reveal" href="guide-eldenring.html">
+          <div class="card-thumb t-purple">🗡️</div>
+          <div class="card-body">
+            <span class="card-tag tag-purple" data-i18n="home.g1_tag">Boss Guide</span>
+            <h3 data-i18n="home.g1_t">Elden Ring: Common Boss Strategies & Builds</h3>
+            <p data-i18n="home.g1_d">The fights newcomers struggle with most...</p>
+            <div class="card-meta"><span><span data-i18n="guides.diff">Difficulty</span>: ★★★☆☆</span><span>8.3k <span data-i18n="news.m_reads">reads</span></span></div>
+            <span class="card-more" data-i18n="guides.view">View guide</span>
+          </div>
+        </a>
+
+        <a class="card reveal" href="guide-genshin.html">
+          <div class="card-thumb t-cyan">⚔️</div>
+          <div class="card-body">
+            <span class="card-tag" data-i18n="home.g2_tag">Progression</span>
+            <h3 data-i18n="home.g2_t">Genshin Impact: Beginner Resource Guide</h3>
+            <p data-i18n="home.g2_d">How to spend Primogems, Mora and books...</p>
+            <div class="card-meta"><span><span data-i18n="guides.diff">Difficulty</span>: ★★☆☆☆</span><span>12.6k <span data-i18n="news.m_reads">reads</span></span></div>
+            <span class="card-more" data-i18n="guides.view">View guide</span>
+          </div>
+        </a>
+
+        <a class="card reveal" href="guide-cyberpunk.html">
+          <div class="card-thumb t-pink">🌃</div>
+          <div class="card-body">
+            <span class="card-tag tag-pink" data-i18n="home.g3_tag">Endings</span>
+            <h3 data-i18n="home.g3_t">Cyberpunk 2077: Ending Triggers & Branches</h3>
+            <p data-i18n="home.g3_d">Your fate in Night City hinges on a few choices...</p>
+            <div class="card-meta"><span><span data-i18n="guides.diff">Difficulty</span>: ★★☆☆☆</span><span>9.7k <span data-i18n="news.m_reads">reads</span></span></div>
+            <span class="card-more" data-i18n="guides.view">View guide</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="subscribe-box">
+        <h4 data-i18n="sub.title">Never miss an update</h4>
+        <p data-i18n="sub.desc">Get our picks of the best games straight to your inbox. No spam, unsubscribe anytime.</p>
+        <form class="subscribe-form" novalidate>
+          <input class="sub-email" type="email" data-i18n-ph="sub.ph" placeholder="you@example.com" aria-label="Email">
+          <button class="btn btn-primary sub-btn" type="submit" data-i18n="sub.btn">Subscribe</button>
+        </form>
+        <p class="sub-msg"></p>
+      </div>
+      <div class="footer-bottom">© <span id="year">2026</span> Game Realm<span data-i18n="foot.copy_suffix_short"></span></div>
+    </div>
+  </footer>
+
+  <button id="backTop" aria-label="Back to top">↑</button>
+  <script src="../js/i18n.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
