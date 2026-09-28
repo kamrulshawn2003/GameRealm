@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How Soulslike Design Shaped an Industry — Game Realm</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="../index.html" class="logo">
+        <span class="logo-mark">🎮</span>
+        <span class="logo-text">Game<span>Realm</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <nav class="nav-menu">
+        <a href="../index.html" data-i18n="nav.home">Home</a>
+        <a href="index.html" class="active" data-i18n="nav.news">News</a>
+        <a href="../guides/index.html" data-i18n="nav.guides">Guides</a>
+        <a href="../research/index.html" data-i18n="nav.research">Research</a>
+        <a href="../about.html" data-i18n="nav.about">About</a>
+        <button class="lang-toggle" type="button"><span class="globe">🌐</span><span class="label">中文</span></button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="../index.html" data-i18n="nav.home">Home</a><span class="sep">/</span>
+      <a href="index.html" data-i18n="nav.news">News</a><span class="sep">/</span>
+      <span data-i18n="elden.title">Soulslike design</span>
+    </div>
+
+    <article class="article-hero">
+      <div class="thumb-big t-purple">🗡️</div>
+      <h1 data-i18n="elden.title">Elden Ring: How Soulslike Design Shaped an Entire Industry</h1>
+      <div class="article-meta">
+        <span>📅 <span data-i18n="elden.meta_d">2026-09-05</span></span>
+        <span class="dot">·</span>
+        <span>✍️ <span data-i18n="elden.meta_who">Editorial</span></span>
+        <span class="dot">·</span>
+        <span>🏷️ <span data-i18n="elden.meta_tag">Industry Watch</span></span>
+        <span class="dot">·</span>
+        <span>👁️ <span data-i18n="elden.meta_v">5.1k</span></span>
+      </div>
+    </article>
+
+    <div class="article-body">
+      <p data-i18n="elden.p1">After Elden Ring won Game of the Year, 'Soulslike' grew into a design paradigm...</p>
+
+      <h2 data-i18n="elden.h2_1">1. Death isn't a punishment — it's information</h2>
+      <p data-i18n="elden.p_1">In most games death means returning to a save point...</p>
+      <blockquote data-i18n="elden.quote">Difficulty isn't the pleasure in itself — learning from it is.</blockquote>
+
+      <h2 data-i18n="elden.h2_2">2. World narrative: the poetics of fragments</h2>
+      <p data-i18n="elden.p_2">FromSoftware rarely uses long cutscenes; it scatters the story...</p>
+      <ul>
+        <li data-i18n="elden.li1">Hollow Knight: telling a fallen kingdom through its environment.</li>
+        <li data-i18n="elden.li2">The Division, Death Stranding: the scene itself as narrative.</li>
+        <li data-i18n="elden.li3">Indie scene: fragmented narrative became the 'artsy' default.</li>
+      </ul>
+
+      <h2 data-i18n="elden.h2_3">3. A different answer for open worlds</h2>
+      <p data-i18n="elden.p_3">Elden Ring brought Souls-like core into an open world...</p>
+      <table>
+        <tr><th data-i18n="elden.th1">Principle</th><th data-i18n="elden.th2">Expression</th></tr>
+        <tr><td data-i18n="elden.t1c1">Curiosity-driven</td><td data-i18n="elden.t1c2">A distant tower, a wisp of smoke...</td></tr>
+        <tr><td data-i18n="elden.t2c1">Choice is risk</td><td data-i18n="elden.t2c2">A passing dungeon could be loot or an instant kill...</td></tr>
+        <tr><td data-i18n="elden.t3c1">Map whitespace</td><td data-i18n="elden.t3c2">Don't mark everything...</td></tr>
+      </table>
+
+      <h2 data-i18n="elden.h2_4">4. Lessons and caveats</h2>
+      <p data-i18n="elden.p_4">Not every imitation succeeds. 'Adding difficulty' doesn't make it Soulslike...</p>
+      <p data-i18n-html="elden.p_5">For more on mechanics and narrative, visit our <a href='../research/index.html'>Research</a> channel.</p>
+
+      <div class="pager">
+        <a href="detail-genshin.html"><span class="dir" data-i18n="common.older">Previous</span><span data-i18n="home.n2_t">Genshin 6.0 explained</span></a>
+        <a class="next" href="detail-wukong.html"><span class="dir" data-i18n="common.newer">Next</span><span data-i18n="home.n1_t">Wukong annual update preview</span></a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="subscribe-box">
+        <h4 data-i18n="sub.title">Never miss an update</h4>
+        <p data-i18n="sub.desc">Get our picks of the best games straight to your inbox. No spam, unsubscribe anytime.</p>
+        <form class="subscribe-form" novalidate>
+          <input class="sub-email" type="email" data-i18n-ph="sub.ph" placeholder="you@example.com" aria-label="Email">
+          <button class="btn btn-primary sub-btn" type="submit" data-i18n="sub.btn">Subscribe</button>
+        </form>
+        <p class="sub-msg"></p>
+      </div>
+      <div class="footer-bottom">© <span id="year">2026</span> Game Realm<span data-i18n="foot.copy_suffix_short"></span></div>
+    </div>
+  </footer>
+
+  <button id="backTop" aria-label="Back to top">↑</button>
+  <script src="../js/i18n.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
