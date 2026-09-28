@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Research — Game Realm</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="../index.html" class="logo">
+        <span class="logo-mark">🎮</span>
+        <span class="logo-text">Game<span>Realm</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <nav class="nav-menu">
+        <a href="../index.html" data-i18n="nav.home">Home</a>
+        <a href="../news/index.html" data-i18n="nav.news">News</a>
+        <a href="../guides/index.html" data-i18n="nav.guides">Guides</a>
+        <a href="index.html" class="active" data-i18n="nav.research">Research</a>
+        <a href="../about.html" data-i18n="nav.about">About</a>
+        <button class="lang-toggle" type="button"><span class="globe">🌐</span><span class="label">中文</span></button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="padding-bottom:50px;">
+    <div class="container">
+      <div class="breadcrumb" style="padding:0;text-align:left;">
+        <a href="../index.html" data-i18n="nav.home">Home</a><span class="sep">/</span><span data-i18n="nav.research">Research</span>
+      </div>
+      <h1 style="margin-top:24px;" data-i18n="research.eyebrow">Game Research</h1>
+      <p class="lead" data-i18n="research.lead">Treat games as the 9th art and a discipline — from narrative and mechanics to industry.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:10px;">
+    <div class="container">
+      <div class="cat-chips reveal">
+        <a href="index.html" class="active" data-i18n="research.chip_all">All topics</a>
+        <a href="research-narrative.html" data-i18n="research.chip_narr">Narrative</a>
+        <a href="research-mechanics.html" data-i18n="research.chip_mech">Mechanics</a>
+        <a href="research-industry.html" data-i18n="research.chip_ind">Industry</a>
+      </div>
+
+      <div class="grid">
+        <a class="card reveal" href="research-narrative.html">
+          <div class="card-thumb t-gold">🧭</div>
+          <div class="card-body">
+            <span class="card-tag tag-gold" data-i18n="home.r1_tag">Narrative</span>
+            <h3 data-i18n="home.r1_t">How Games Tell Stories: Three Paradigms of Interactive Narrative</h3>
+            <p data-i18n="home.r1_d">From linear to emergent — how participation redefines 'story'.</p>
+            <div class="card-meta"><span>12 <span data-i18n="research.minread">min read</span></span></div>
+            <span class="card-more" data-i18n="research.read">Read topic</span>
+          </div>
+        </a>
+
+        <a class="card reveal" href="research-mechanics.html">
+          <div class="card-thumb t-cyan">🎲</div>
+          <div class="card-body">
+            <span class="card-tag" data-i18n="home.r2_tag">Mechanics</span>
+            <h3 data-i18n="home.r2_t">Game Mechanics: Rules, Feedback and Flow</h3>
+            <p data-i18n="home.r2_d">Why do simple rules hook us? The logic beneath design.</p>
+            <div class="card-meta"><span>10 <span data-i18n="research.minread">min read</span></span></div>
+            <span class="card-more" data-i18n="research.read">Read topic</span>
+          </div>
+        </a>
+
+        <a class="card reveal" href="research-industry.html">
+          <div class="card-thumb t-purple">🏭</div>
+          <div class="card-body">
+            <span class="card-tag tag-purple" data-i18n="home.r3_tag">Industry</span>
+            <h3 data-i18n="home.r3_t">Gaming Industry 2026: The Premium Revival & Going Global</h3>
+            <p data-i18n="home.r3_d">Buy-to-play returns, the global market resets — where are Chinese games heading?</p>
+            <div class="card-meta"><span>11 <span data-i18n="research.minread">min read</span></span></div>
+            <span class="card-more" data-i18n="research.read">Read topic</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="subscribe-box">
+        <h4 data-i18n="sub.title">Never miss an update</h4>
+        <p data-i18n="sub.desc">Get our picks of the best games straight to your inbox. No spam, unsubscribe anytime.</p>
+        <form class="subscribe-form" novalidate>
+          <input class="sub-email" type="email" data-i18n-ph="sub.ph" placeholder="you@example.com" aria-label="Email">
+          <button class="btn btn-primary sub-btn" type="submit" data-i18n="sub.btn">Subscribe</button>
+        </form>
+        <p class="sub-msg"></p>
+      </div>
+      <div class="footer-bottom">© <span id="year">2026</span> Game Realm<span data-i18n="foot.copy_suffix_short"></span></div>
+    </div>
+  </footer>
+
+  <button id="backTop" aria-label="Back to top">↑</button>
+  <script src="../js/i18n.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
