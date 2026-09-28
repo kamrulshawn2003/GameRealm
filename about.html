@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Game Realm</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">🎮</span>
+        <span class="logo-text">Game<span>Realm</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <nav class="nav-menu">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="news/index.html" data-i18n="nav.news">News</a>
+        <a href="guides/index.html" data-i18n="nav.guides">Guides</a>
+        <a href="research/index.html" data-i18n="nav.research">Research</a>
+        <a href="about.html" class="active" data-i18n="nav.about">About</a>
+        <button class="lang-toggle" type="button"><span class="globe">🌐</span><span class="label">中文</span></button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="padding-bottom:50px;">
+    <div class="container">
+      <div class="breadcrumb" style="padding:0;text-align:left;">
+        <a href="index.html" data-i18n="nav.home">Home</a><span class="sep">/</span><span data-i18n="nav.about">About</span>
+      </div>
+      <h1 style="margin-top:24px;">About <span class="gradient-text" data-i18n="nav.about">Game Realm</span></h1>
+      <p class="lead" data-i18n="about.lead">A group of players who love games — and enjoy talking about them seriously.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="article-body" style="max-width:820px;margin:0 auto;">
+        <h2 data-i18n="about.who_h">Who we are</h2>
+        <p data-i18n="about.who_d">'Game Realm' began as the final project of a web design course. We want to treat games as a culture and art form worth discussing seriously.</p>
+
+        <h2 data-i18n="about.what_h">What we do</h2>
+        <ul>
+          <li data-i18n="about.what1">Game news: track releases, patches and industry trends.</li>
+          <li data-i18n="about.what2">Guides: help players skip the detours with clear, responsible writing.</li>
+          <li data-i18n="about.what3">Game research: scholarly discussion of narrative, mechanics and industry.</li>
+        </ul>
+
+        <h2 data-i18n="about.tech_h">Tech stack</h2>
+        <p data-i18n="about.tech_d">This is a fully static site showcasing HTML5, CSS3 and vanilla JavaScript:</p>
+        <table>
+          <tr><th data-i18n="about.tech_th">Feature</th><th data-i18n="about.tech_th2">Where it's used</th></tr>
+          <tr><td data-i18n="about.tech1d">Semantic HTML5</td><td data-i18n="about.tech1u">Site structure (header / nav / article / footer)</td></tr>
+          <tr><td data-i18n="about.tech2d">CSS Grid / Flexbox</td><td data-i18n="about.tech2u">Card grids, nav, footer layout</td></tr>
+          <tr><td data-i18n="about.tech3d">CSS variables + gradients</td><td data-i18n="about.tech3u">Design system & neon visuals</td></tr>
+          <tr><td data-i18n="about.tech4d">Media queries</td><td data-i18n="about.tech4u">Mobile / tablet / desktop responsiveness</td></tr>
+          <tr><td data-i18n="about.tech5d">IntersectionObserver</td><td data-i18n="about.tech5u">Scroll reveal animations</td></tr>
+          <tr><td data-i18n="about.tech6d">Vanilla JS</td><td data-i18n="about.tech6u">Hamburger menu, back-to-top, nav highlight, i18n</td></tr>
+        </table>
+
+        <h2 data-i18n="about.feat_h">Extra features</h2>
+        <ul>
+          <li data-i18n="about.feat1">Site-wide bilingual search (Ctrl+K) with live results.</li>
+          <li data-i18n="about.feat2">Light / dark theme toggle, saved between visits.</li>
+          <li data-i18n="about.feat3">Reading progress bar and 1–5 star article ratings.</li>
+          <li data-i18n="about.feat4">Newsletter sign-up form with input validation.</li>
+          <li data-i18n="about.feat5">Live channel filtering and animated stat counters.</li>
+        </ul>
+
+        <h2 data-i18n="about.struct_h">Site structure</h2>
+        <p data-i18n="about.struct_d">The site has 3 core channels and 12 content pages, meeting '3 channels, each with 3 sub-pages':</p>
+        <ul>
+          <li data-i18n="about.s1">News: channel home + 3 detail pages (Wukong / Genshin / Elden Ring).</li>
+          <li data-i18n="about.s2">Guides: channel home + 3 guides (Elden Ring / Genshin / Cyberpunk).</li>
+          <li data-i18n="about.s3">Research: channel home + 3 essays (Narrative / Mechanics / Industry).</li>
+        </ul>
+
+        <blockquote data-i18n="about.quote">'We believe players deserve the right to talk about games.'</blockquote>
+
+        <p style="text-align:center;margin-top:36px;">
+          <a href="index.html" class="btn btn-primary" data-i18n="about.back">Back to home</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="subscribe-box">
+        <h4 data-i18n="sub.title">Never miss an update</h4>
+        <p data-i18n="sub.desc">Get our picks of the best games straight to your inbox. No spam, unsubscribe anytime.</p>
+        <form class="subscribe-form" novalidate>
+          <input class="sub-email" type="email" data-i18n-ph="sub.ph" placeholder="you@example.com" aria-label="Email">
+          <button class="btn btn-primary sub-btn" type="submit" data-i18n="sub.btn">Subscribe</button>
+        </form>
+        <p class="sub-msg"></p>
+      </div>
+      <div class="footer-bottom">© <span id="year">2026</span> Game Realm<span data-i18n="foot.copy_suffix_short"></span></div>
+    </div>
+  </footer>
+
+  <button id="backTop" aria-label="Back to top">↑</button>
+  <script src="js/i18n.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
