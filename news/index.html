@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game News — Game Realm</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="../index.html" class="logo">
+        <span class="logo-mark">🎮</span>
+        <span class="logo-text">Game<span>Realm</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <nav class="nav-menu">
+        <a href="../index.html" data-i18n="nav.home">Home</a>
+        <a href="index.html" class="active" data-i18n="nav.news">News</a>
+        <a href="../guides/index.html" data-i18n="nav.guides">Guides</a>
+        <a href="../research/index.html" data-i18n="nav.research">Research</a>
+        <a href="../about.html" data-i18n="nav.about">About</a>
+        <button class="lang-toggle" type="button"><span class="globe">🌐</span><span class="label">中文</span></button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 页头横幅 -->
+  <section class="hero" style="padding-bottom:50px;">
+    <div class="container">
+      <div class="breadcrumb" style="padding:0;text-align:left;">
+        <a href="../index.html" data-i18n="nav.home">Home</a><span class="sep">/</span><span data-i18n="nav.news">News</span>
+      </div>
+      <h1 style="margin-top:24px;" data-i18n="news.eyebrow">Game News</h1>
+      <p class="lead" data-i18n="news.lead">Track major releases, patches and industry hot topics.</p>
+    </div>
+  </section>
+
+  <!-- 分类筛选（视觉） -->
+  <section class="section" style="padding-top:10px;">
+    <div class="container">
+      <div class="cat-chips reveal">
+        <a href="index.html" class="active" data-i18n="news.chip_all">All</a>
+        <a href="detail-wukong.html" data-i18n="news.chip_patch">Patch Watch</a>
+        <a href="detail-genshin.html" data-i18n="news.chip_version">Version Update</a>
+        <a href="detail-eldenring.html" data-i18n="news.chip_industry">Industry Watch</a>
+      </div>
+
+      <div class="grid">
+        <a class="card reveal" href="detail-wukong.html">
+          <div class="card-thumb t-gold">🐒</div>
+          <div class="card-body">
+            <span class="card-tag tag-gold" data-i18n="home.n1_tag">Patch Watch</span>
+            <h3 data-i18n="home.n1_t">Black Myth: Wukong — Annual Update Preview</h3>
+            <p data-i18n="home.n1_d">Studio teases future updates...</p>
+            <div class="card-meta"><span data-i18n="home.n1_m">2026-09-15</span><span>4.2k <span data-i18n="news.m_reads">reads</span></span></div>
+            <span class="card-more" data-i18n="news.read_more">Read more</span>
+          </div>
+        </a>
+
+        <a class="card reveal" href="detail-genshin.html">
+          <div class="card-thumb t-cyan">⚔️</div>
+          <div class="card-body">
+            <span class="card-tag" data-i18n="home.n2_tag">Version Update</span>
+            <h3 data-i18n="home.n2_t">Genshin Impact 6.0: New Region & Characters</h3>
+            <p data-i18n="home.n2_d">A brand-new main chapter opens...</p>
+            <div class="card-meta"><span data-i18n="home.n2_m">2026-09-10</span><span>6.8k <span data-i18n="news.m_reads">reads</span></span></div>
+            <span class="card-more" data-i18n="news.read_more">Read more</span>
+          </div>
+        </a>
+
+        <a class="card reveal" href="detail-eldenring.html">
+          <div class="card-thumb t-purple">🗡️</div>
+          <div class="card-body">
+            <span class="card-tag tag-purple" data-i18n="home.n3_tag">Industry Watch</span>
+            <h3 data-i18n="home.n3_t">How Elden Ring Shaped an Entire Industry</h3>
+            <p data-i18n="home.n3_d">From Dark Souls to Elden Ring...</p>
+            <div class="card-meta"><span data-i18n="home.n3_m">2026-09-05</span><span>5.1k <span data-i18n="news.m_reads">reads</span></span></div>
+            <span class="card-more" data-i18n="news.read_more">Read more</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4 data-i18n="foot.about_t">🎮 Game Realm</h4>
+          <p data-i18n="foot.about_d">A gaming site built by players, for players...</p>
+        </div>
+        <div>
+          <h4 data-i18n="foot.channels">Channels</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.news">News</a></li>
+            <li><a href="../guides/index.html" data-i18n="nav.guides">Guides</a></li>
+            <li><a href="../research/index.html" data-i18n="nav.research">Research</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="foot.quick">Quick links</h4>
+          <ul>
+            <li><a href="../index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="../about.html" data-i18n="nav.about">About</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="foot.tech_t">About this site</h4>
+          <ul>
+            <li data-i18n="foot.tech1">Web design course final project</li>
+            <li data-i18n="foot.tech2">HTML5 · CSS3 · Vanilla JS</li>
+          </ul>
+        </div>
+      </div>
+      <div class="subscribe-box">
+        <h4 data-i18n="sub.title">Never miss an update</h4>
+        <p data-i18n="sub.desc">Get our picks of the best games straight to your inbox. No spam, unsubscribe anytime.</p>
+        <form class="subscribe-form" novalidate>
+          <input class="sub-email" type="email" data-i18n-ph="sub.ph" placeholder="you@example.com" aria-label="Email">
+          <button class="btn btn-primary sub-btn" type="submit" data-i18n="sub.btn">Subscribe</button>
+        </form>
+        <p class="sub-msg"></p>
+      </div>
+      <div class="footer-bottom">© <span id="year">2026</span> Game Realm<span data-i18n="foot.copy_suffix_short"></span></div>
+    </div>
+  </footer>
+
+  <button id="backTop" aria-label="Back to top">↑</button>
+  <script src="../js/i18n.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
